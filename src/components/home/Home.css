@@ -1,0 +1,110 @@
+.home-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* background-image: url('./background.jpg'); */ /*Comment out background image first*/
+    background-color: #f5f5f5; /* Solid background color for testing*/
+    background-size: cover;
+    background-position: center;
+     margin: 0;
+    padding: 0;
+        width: 100%; /* Take the full width */
+   
+   }
+   
+   .home-content {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.85);
+    padding: 30px;
+    border-radius: 10px;
+    max-width: 600px;
+    margin: 0 auto; /* Center the content horizontally within the container */
+   box-sizing: border-box; /* Ensure padding does not affect content width */
+   }
+   
+   .home-content h1 {
+    font-family: 'Poppins', sans-serif;
+    color: #c78d6b;
+    margin-bottom: 15px;
+   }
+   
+   .home-content p {
+    font-family: 'Poppins', sans-serif;
+    color: #5e4f4f;
+    margin-bottom: 30px;
+   }
+   
+   .home-links {
+    margin-top: 20px;
+   }
+   
+   .home-link {
+    display: inline-block;
+    margin: 10px;
+    padding: 12px 24px;
+    background-color: #e6b885;
+    color: #5e4f4f;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+   }
+   
+   .home-link:hover {
+    background-color: #d4ac0d;
+   }
+
+
+/* .home-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh; 
+      background-image: url('./background.jpg');
+      background-size: cover;
+      background-position: center;
+     
+      
+      
+  }
+  
+  
+  .home-content{
+      text-align:center;
+      background-color: rgba(255,255,255,0.7); 
+      padding:30px;
+      border-radius:10px;
+  
+  }
+  
+  .home-content h1 {
+    color: #a83232; 
+    margin-bottom: 15px;
+      
+  }
+      
+  .home-content p {
+    color: #777;
+    margin-bottom:30px;
+  }
+  
+  .home-links {
+    margin-top: 20px;
+  }
+  
+  .home-link {
+    display: inline-block;
+    margin: 10px;
+    padding: 12px 24px;
+    background-color: #a83232; 
+      color: white;
+    text-decoration: none;
+      border-radius: 8px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .home-link:hover {
+    background-color: #772424;
+  } */

@@ -1,0 +1,143 @@
+/* .navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+   background-color: #f5ba89; 
+  color: #5e4f4f; 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  padding: 15px 0;
+  margin: 0;
+} */
+
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #f5ba89;
+  color: #5e4f4f;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 1000; /* Ensure high stacking order */
+  padding: 15px 0;
+  margin: 0;}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.navbar-logo {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.7rem;
+  font-weight: 700;
+    color: #5e4f4f; /* Dark brown logo */
+  text-decoration: none;
+}
+
+.navbar-menu {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-item {
+  margin: 0 15px;
+}
+
+.navbar-link {
+  font-family: 'Poppins', sans-serif;
+  color: #5e4f4f; /* Dark brown link */
+  text-decoration: none;
+  font-size: 1.1rem;
+  font-weight: 500;
+  transition: color 0.3s ease, border-bottom 0.3s ease;
+  text-transform: uppercase;
+}
+
+.navbar-link:hover {
+  color: #d4ac0d; /* Soft gold for hover */
+   border-bottom: 2px solid #d48b0d;
+}
+
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .navbar-container {
+      flex-direction: column;
+      text-align: center;
+      padding: 15px 0;
+  }
+
+  .navbar-menu {
+      flex-direction: column;
+      margin-top: 10px;
+  }
+  .navbar-item {
+      margin: 10px 0;
+  }
+  .navbar-link {
+      font-size: 1rem;
+  }
+   .navbar-logo {
+      font-size: 1.5rem;
+  }
+}
+
+
+
+
+/* .navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333; 
+    color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    z-index: 1000; 
+  }
+  
+  .navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+  }
+  
+  .navbar-logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .navbar-menu {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar-item {
+    margin: 0 10px;
+  }
+  
+  .navbar-link {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+  }
+  
+  .navbar-link:hover {
+    color: #00bcd4; 
+  }
+   */
