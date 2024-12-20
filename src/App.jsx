@@ -42,6 +42,9 @@ import SamagriList from './components/samagri/SamagriList';
 import AddProductSamagri from './components/samagri/AddProductSamagri';
 import AddSamagri from './components/samagri/AddSamagri';
 import AddPujaSamagri from './components/samagri/AddPujaSamagri';
+import PanditList from './components/pandit/PanditList';
+import AddPandit from './components/pandit/AddPandit';
+import EditPandit from './components/pandit/EditPandit';
 
 const App = () => {
   return (
@@ -224,6 +227,37 @@ const App = () => {
           element={
             <ProtectedRoute>
               <AddPujaSamagri></AddPujaSamagri>
+            </ProtectedRoute>
+          }
+          >
+          </Route>
+
+          <Route
+          path='/pandits'
+          element={
+            <ProtectedRoute>
+              <PanditList></PanditList>
+            </ProtectedRoute>
+          }
+          >
+          </Route>
+
+          <Route
+          path='/add-pandit'
+          element={
+            <ProtectedRoute>
+              <AddPandit></AddPandit>
+            </ProtectedRoute>
+          }
+          >
+          </Route>
+
+
+          <Route
+          path='/edit-pandit/:id'
+          element={
+            <ProtectedRoute>
+              <EditPandit></EditPandit>
             </ProtectedRoute>
           }
           >
